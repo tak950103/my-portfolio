@@ -11,6 +11,9 @@ const projects = [
         appStore: "",
         image: "/images/book-app.PNG",
     },
+    {
+      title: "マイイレ - サッカーの選手評価・記録アプリ",
+    }
 ];
 
 const Projects = () => {
