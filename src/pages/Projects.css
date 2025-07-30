@@ -1,0 +1,77 @@
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 30px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.project-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+    padding: 20px 40px;
+}
+
+.project-info {
+    flex: 1;
+    min-width: 240px;
+}
+
+.project-info h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.description {
+    color: #555;
+    font-size: 14px;
+}
+
+.description2 {
+    color: gray;
+    font-size: 14px;
+}
+
+.links {
+    margin-top: 10px;
+}
+
+.links a {
+    display: inline-flex;
+    align-items: center;
+    background-color: #f0f3fa;
+    color: #3366cc;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-right: 10px;
+    transition: background-color 0.2s ease;
+}
+
+.links a i {
+    margin-right: 8px;
+}
+
+.links a:hover {
+    background-color: #e0e9ff;
+}
+
+
+.project-image {
+    max-width: 300px;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}

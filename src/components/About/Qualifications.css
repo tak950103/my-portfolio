@@ -1,0 +1,70 @@
+.qualifications-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.qualifications-section h2 {
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+
+.qualification-list {
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.qualification-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+}
+
+.qualification-item:hover {
+    transform: translateY(-2px);
+}
+
+.qualification-name {
+    font-weight: 500;
+    font-size: 16px;
+    color: #3366cc;
+}
+
+.qualification-year {
+    font-size: 14px;
+    color: #666;
+}
+
+.filter-buttons {
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: right;
+    gap: 12px;
+}
+
+.filter-buttons button {
+    padding: 8px 16px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.filter-buttons button:hover {
+    background-color: #e0e0e0;
+}
+
+.filter-buttons button.active {
+    background-color: #3366cc;
+    color: #fff;
+}

@@ -1,0 +1,27 @@
+.profile-card {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-name {
+    font-size: 24px;
+    margin-top: 16px;
+}
+
+.profile-name2 {
+    color: #666;
+    font-size: 16px;
+}
+
+.profile-title {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #444;
+}
