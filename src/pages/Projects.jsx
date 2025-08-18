@@ -13,6 +13,11 @@ const projects = [
     },
     {
       title: "マイイレ - サッカーの選手評価・記録アプリ",
+      description: "推しクラブや推し選手を自由に作って評価・記録する。",
+      description2: "SwiftUI、Realm",
+      github: "",
+      appStore: "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%A4%E3%82%A4%E3%83%AC-%E3%82%B5%E3%83%83%E3%82%AB%E3%83%BC%E3%81%AE%E9%81%B8%E6%89%8B%E8%A9%95%E4%BE%A1-%E8%A8%98%E9%8C%B2%E3%82%A2%E3%83%97%E3%83%AA/id6748753545",
+      image: "/images/myele.png",
     }
 ];
 
@@ -42,7 +47,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className='project-image'>
-                    <img src={`${import.meta.env.BASE_URL}images/book-app.PNG`} alt={p.title} />
+                    <img src={`${import.meta.env.BASE_URL}${p.image}`} alt={p.title} />
                 </div>
             </div>
         ))}
