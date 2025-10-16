@@ -23,6 +23,11 @@ const experiences = [
         title: "データ収集システム（アンケート機能拡張）",
         file: "questionnaire-system.md",
         tags: ["JQuery", "JavaScript", "Laravel", "MySQL"]
+    },
+    {
+        title: "排ガス計測システム",
+        file: "exhaustgas-measurement-system.md",
+        tags: ["WPF", "C#"]
     }
     
 ];
