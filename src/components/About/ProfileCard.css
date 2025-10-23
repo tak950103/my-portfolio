@@ -1,14 +1,44 @@
 .profile-card {
-    text-align: center;
-    padding: 40px 20px;
+    position: relative;
+}
+
+.profile-hero {
+  position: relative;
+  padding: 56px 20px 40px;
+  border-radius: 16px;
+  background:#fff;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  overflow: hidden;
+
+  display: flex;                
+  flex-direction: column;       
+  align-items: center;          
+  text-align: center;
+  gap: 8px;    
+}
+
+.ring {
+  position: absolute;
+  inset: -60px -60px auto auto;
+  width: 240px; height: 240px;
+  border-radius: 50%;
+  border: 14px solid rgba(51,102,204,0.15);
+  filter: blur(0.3px);
+  transform: translate(30px, -30px);
 }
 
 .profile-img {
-    width: 120px;
-    height: 120px;
+    width: 120px; height: 120px;
     border-radius: 50%;
     object-fit: cover;
+    border: 6px solid #fff;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    display: block;
+    margin: 8px auto 0;
+    z-index: 1;
 }
+
+.name-block { text-align: center; }
 
 .profile-name {
     font-size: 24px;

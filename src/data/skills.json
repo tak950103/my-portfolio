@@ -21,7 +21,7 @@
   {
     "category": "Mobile / Desktop",
     "skills":[
-        { "name": "SwiftUI", "level": 4 },
+        { "name": "Swift", "level": 4 },
         { "name": "Kotlin", "level": 2 },
         { "name": "Realm", "level":4 },
         { "name": "WPF", "level": 5 },
