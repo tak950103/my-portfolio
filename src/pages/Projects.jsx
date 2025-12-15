@@ -34,6 +34,14 @@ const projects = [
       github: "",
       appStore: "https://apps.apple.com/jp/app/kajika-%E5%AE%B6%E4%BA%8B%E3%81%AE%E4%BE%A1%E5%80%A4%E3%82%92%E8%A6%8B%E3%81%88%E3%82%8B%E5%8C%96/id6754679330",
       image: "/images/Kajika.png",
+    },
+    {
+      title: "PopSpark - ポップコーンで習慣化",
+      description: "勉強や筋トレなど、続けたいことの時間をポップコーンに変えて楽しく記録",
+      description2: "Swift, SwiftData, CloudKit",
+      github: "",
+      appStore: "https://apps.apple.com/jp/app/popspark-%E3%83%9D%E3%83%83%E3%83%97%E3%82%B3%E3%83%BC%E3%83%B3%E3%81%A7%E7%BF%92%E6%85%A3%E5%8C%96/id6755963992",
+      image: "/images/PopSpark.png",
     }
 ];
 
