@@ -3,8 +3,8 @@
     "category": "Frontend",
     "skills":[
         { "name": "React", "level": 3 },
-        { "name": "HTML", "level": 4 },
-        { "name": "CSS", "level": 4 },
+        { "name": "HTML", "level": 5 },
+        { "name": "CSS", "level": 5 },
         { "name": "JavaScript", "level": 3 }
     ]
   },
@@ -15,15 +15,15 @@
         { "name": "Laravel", "level": 3 },
         { "name": "MySQL", "level": 3 },
         { "name": "SQL Server", "level":4 },
-        { "name": "SQLite", "level": 5 }
+        { "name": "SQLite", "level": 5 },
+        { "name": "Cloud Firestore", "level": 3 }
     ]
   },
   {
     "category": "Mobile / Desktop",
     "skills":[
-        { "name": "Swift", "level": 4 },
+        { "name": "Swift", "level": 5 },
         { "name": "Kotlin", "level": 2 },
-        { "name": "Realm", "level":4 },
         { "name": "WPF", "level": 5 },
         { "name": "C#", "level": 5 }
     ]
@@ -32,7 +32,9 @@
     "category": "Other",
     "skills":[
         { "name": "Git", "level": 3 },
-        { "name": "Python", "level": 2 }
+        { "name": "Python", "level": 2 },
+        { "name": "Bitbucket", "level": 3 },
+        { "name": "Markdown", "level": 5 }
     ]
   }
 ]

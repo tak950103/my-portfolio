@@ -28,6 +28,11 @@ const experiences = [
         title: "排ガス計測システム",
         file: "exhaustgas-measurement-system.md",
         tags: ["WPF", "C#"]
+    },
+    {
+        title: "自動車試験モニタリングシステム",
+        file: "monitoring-system.md",
+        tags: ["WPF", "C#"]
     }
     
 ];

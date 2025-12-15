@@ -22,10 +22,18 @@ const projects = [
     {
       title: "よみポン - 子どもの読書記録アプリ",
       description: "子どもの読書記録をサポート。親子で楽しくスタンプ集め。",
-      description2: "Swift、Realm、FireStore、API：楽天BooksAPI、openBD API",
+      description2: "Swift、Realm、Cloud FireStore、API：楽天BooksAPI、openBD API",
       github: "",
       appStore: "https://apps.apple.com/jp/app/%E3%82%88%E3%81%BF%E3%83%9D%E3%83%B3/id6752224574",
       image: "/images/yomipon.png",
+    },
+    {
+      title: "Kajika - 家事の記録と時間を見える化",
+      description: "家事時間を時給換算して記録。家事の価値を見える化。",
+      description2: "Swift、SwiftData、CloudKit",
+      github: "",
+      appStore: "https://apps.apple.com/jp/app/kajika-%E5%AE%B6%E4%BA%8B%E3%81%AE%E4%BE%A1%E5%80%A4%E3%82%92%E8%A6%8B%E3%81%88%E3%82%8B%E5%8C%96/id6754679330",
+      image: "/images/Kajika.png",
     }
 ];
 
