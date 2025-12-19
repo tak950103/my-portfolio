@@ -74,7 +74,7 @@
     transition: opacity 0.2s ease, transform 0.2s ease;
     pointer-events: none;
     z-index: 10;
-    box-shadow: 0 4px 12p rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .stars:hover::after {

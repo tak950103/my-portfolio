@@ -51,20 +51,27 @@
 }
 
 .filter-buttons button {
-    padding: 8px 16px;
-    background-color: #f2f2f2;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 14px;
-    transition: background-color 0.2s;
+    display: inline-flex;
+  align-items: center;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(15,23,42,0.10);
+  background: rgba(255,255,255,0.75);
+  cursor: pointer;
+  transition: transform .12s ease, background .12s ease, border-color .12s ease, box-shadow .12s ease;
 }
 
-.filter-buttons button:hover {
-    background-color: #e0e0e0;
+.filter-buttons button:hover{
+  background: rgba(255,255,255,0.95);
+  border-color: rgba(51,102,204,0.18);
+  transform: translateY(-1px);
 }
-
-.filter-buttons button.active {
-    background-color: #3366cc;
-    color: #fff;
+.filter-buttons button:focus-visible{
+  outline: none;
+  box-shadow: var(--ring);
+}
+.filter-buttons button.active{
+  background: var(--primary);
+  color: #fff;
+  border-color: transparent;
 }

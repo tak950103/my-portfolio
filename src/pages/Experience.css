@@ -1,3 +1,8 @@
+.page-surface{
+  padding: 24px;
+  border-radius: var(--radius-lg);
+}
+
 .experience-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
