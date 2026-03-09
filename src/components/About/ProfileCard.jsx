@@ -21,7 +21,7 @@ const ProfileCard = () => {
               <li>要件定義・顧客折衝</li>
               <li>ユーザー目線の設計</li>
               <li>非IT層にも伝わる説明</li>
-              <li>iOSアプリ4本公開</li>
+              <li>iOSアプリ公開</li>
               <li>応用情報技術者</li>
             </ul>
 

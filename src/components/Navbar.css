@@ -3,9 +3,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 14px 32px;
-    background-color: #f9f9f9;
-    border-bottom: 1px solid #ddd;
+    padding: 12px 24px;
+    background: rgba(246,247,251,0.75);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(15,23,42,0.10);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -14,21 +15,61 @@
 
 .logo {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
+    letter-spacing: 0.2px;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
 }
 
-.nav-links li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
+.nav-links li a{
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 999px;
+
+  color: #111827;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+
+  transition: background .15s ease, color .15s ease, transform .15s ease, box-shadow .15s ease;
 }
 
-.nav-links .active a {
-    color: #3366cc;
+/* ✅ hoverで分かる */
+.nav-links li a:hover{
+  background: rgba(51,102,204,0.10);
+  color: #3366cc;
+  transform: translateY(-1px);
+}
+
+/* ✅ キーボード操作でも分かる（重要） */
+.nav-links li a:focus-visible{
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(51,102,204,0.25);
+}
+
+/* ✅ activeは“選択中感”を強く */
+.nav-links li.active a{
+  background: #3366cc;
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(51,102,204,0.25);
+}
+
+/* active中のhoverは少し明るく */
+.nav-links li.active a:hover{
+  filter: brightness(1.05);
+  transform: translateY(-1px);
+}
+
+/* スマホで詰まる時の最低限 */
+@media (max-width: 520px){
+  .navbar{ padding: 10px 14px; }
+  .nav-links{ gap: 6px; }
+  .nav-links li a{ padding: 7px 10px; font-size: 13px; }
 }
